@@ -1,0 +1,33 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+.env
+.venv
+env/
+venv/
+
+# VSCode / JetBrains IDEs
+.idea/
+.vscode/
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Build artifacts
+build/
+dist/
+*.egg
+*.whl
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# Hugging Face / cache
+.cache/
