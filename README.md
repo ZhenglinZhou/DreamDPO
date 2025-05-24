@@ -54,7 +54,7 @@ huggingface-cli download ${Model CheckPoints} --local-dir model_weights/${Reward
         |-- open_clip_pytorch_model.bin
 ```
 * Step4 (Optional): Use large multi-module model (e.g., Qwen):
-To use it, you should [create an Alibaba Cloud account](https://help.aliyun.com/zh/model-studio/obtain-api-key-app-id-and-workspace-id?spm=a2c4g.11186623.0.i1) and create a Dashscope API key to fill in the DASHSCOPE_API_KEY field in the config.yaml file. Change the MODEL field from OpenAI to Qwen as well.
+To use it, you should [create an Alibaba Cloud account](https://help.aliyun.com/zh/model-studio/obtain-api-key-app-id-and-workspace-id?spm=a2c4g.11186623.0.i1) and create a Dashscope API key to fill in the `qwen_api_key` field in the `threestudio/reward/qwen.py` file. 
 
 ## Usage
 1. DreamDPO with different reward models, including `hpsv2-score`, `imagereward-score`, `brique-score`, `reward3d-score`:
